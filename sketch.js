@@ -77,7 +77,7 @@ function setup() {
 
 function draw() {
   
-  background("lightblue");
+  background("grey");
    
   if(gameState === PLAY){
     //move the 
@@ -150,7 +150,8 @@ function draw() {
 
   drawSprites();
   //displaying score
-  textSize(20);
+    text("SCORE: "+ score, 500,50);
+
 }
 
   function reset(){
