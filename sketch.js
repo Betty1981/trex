@@ -151,7 +151,6 @@ function draw() {
   drawSprites();
   //displaying score
   textSize(20);
-  text("SCORE: "+ score, 500,50);
 }
 
   function reset(){
