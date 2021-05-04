@@ -79,7 +79,7 @@ function draw() {
   
   background("lightblue");
   //displaying score
-  stroke(0);
+  stroke("red");
   text("SCORE: "+ score, 500,50);
   
   
