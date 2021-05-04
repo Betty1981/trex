@@ -78,11 +78,7 @@ function setup() {
 function draw() {
   
   background("lightblue");
-  //displaying score
-  textSize(20);
-  text("SCORE: "+ score, 500,50);
-  
-  
+   
   if(gameState === PLAY){
     //move the 
     gameOver.visible = false;
@@ -153,6 +149,9 @@ function draw() {
   }
 
   drawSprites();
+  //displaying score
+  textSize(20);
+  text("SCORE: "+ score, 500,50);
 }
 
   function reset(){
