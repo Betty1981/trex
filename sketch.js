@@ -79,7 +79,6 @@ function draw() {
   
   background("grey");
    //displaying score
-  textSize(25);
     text("SCORE: "+ score, 500,50);
   if(gameState === PLAY){
     //move the 
